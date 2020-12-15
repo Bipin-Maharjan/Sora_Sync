@@ -1,5 +1,7 @@
 # Sora_Sync_App
- Firebase based cloud music application developed by Team Sora_Sync. 
+ Small firebase based cloud music application developed by Team Sora_Sync for Android and Cloud computing subject.
+ 
+ #### This code no longer maintaned.
  
 ### Sora_Sync Team Members
 - [Bipin Maharjan](https://github.com/iambpn)
