@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Navigation" android:id="@+id/navigation_menu_group">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/songs_menu_item"
+                    android:icon="@drawable/ic_play_arrow_black_24dp"
+                    android:title="Songs" />
+                <item
+                    android:id="@+id/upload_songs_menu_item"
+                    android:icon="@drawable/ic_cloud_upload_black_24dp"
+                    android:title="Upload Songs" />
+                <item
+                    android:id="@+id/my_music_menu_item"
+                    android:icon="@drawable/ic_library_music_black_24dp"
+                    android:title="My Music" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Account" android:id="@+id/account_menu_group">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/login_menu_item"
+                    android:icon="@drawable/ic_account_circle_black_24dp"
+                    android:title="Login" />
+                <item
+                    android:id="@+id/register_menu_item"
+                    android:icon="@drawable/ic_register_24dp"
+                    android:title="Register" />
+                <item
+                    android:id="@+id/logout_menu_item"
+                    android:icon="@drawable/ic_exit_to_app_black_24dp"
+                    android:title="Logout" />
+            </group>
+        </menu>
+    </item>
+</menu>

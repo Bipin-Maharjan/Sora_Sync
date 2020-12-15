@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="72dp"
+    android:padding="16dp"
+    android:background="@color/white"
+    style="@style/ripple_border"
+    android:id="@+id/songlist_item_relativeView">
+    
+    <ImageView
+        android:id="@+id/list_item_song_avatar"
+        android:layout_marginRight="16dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/ic_play_circle_filled_black_24dp"
+        />
+
+    <TextView
+        android:id="@+id/list_item_song_name"
+        android:layout_toRightOf="@id/list_item_song_avatar"
+        android:layout_toLeftOf="@id/list_item_uploader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="Song name"
+        android:ellipsize="end"
+        android:marqueeRepeatLimit="2"
+        android:scrollHorizontally="true"
+        style="@style/TextAppearance.MaterialComponents.Subtitle1"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/list_item_song_album"
+        android:layout_below="@+id/list_item_song_name"
+        android:layout_toRightOf="@id/list_item_song_avatar"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:gravity="bottom"
+        android:text="Album"
+        android:maxLines="1"
+        android:ellipsize="end"
+        style="@style/TextAppearance.MaterialComponents.Caption" />
+
+    <TextView
+        android:id="@+id/list_item_uploader"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:maxLength="15"
+        android:text="Uploader"
+        style="@style/TextAppearance.MaterialComponents.Caption" />
+
+
+</RelativeLayout>

@@ -1,0 +1,93 @@
+{
+  "project_info": {
+    "project_number": "943144077677",
+    "firebase_url": "https://coursework-ce4e4.firebaseio.com",
+    "project_id": "coursework-ce4e4",
+    "storage_bucket": "coursework-ce4e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:943144077677:android:d5fe9d8aa037da75aff264",
+        "android_client_info": {
+          "package_name": "com.example.coursework"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "943144077677-q27uf5l16k3r701qca9439qu20b60p0h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.coursework",
+            "certificate_hash": "36c2b28940cf3a5c67e864401d7f841d68faa593"
+          }
+        },
+        {
+          "client_id": "943144077677-01jfrclo9mvavaom9hle3d70am9iblop.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.coursework",
+            "certificate_hash": "5348c70f9d59e79717c0d332f8e094bd735b4232"
+          }
+        },
+        {
+          "client_id": "943144077677-e4aei7jn3r1t05als90dpf046aqqh02g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcvRpfmsfbBXDEHsf6XYmWwKCcwDHM9DE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "943144077677-e4aei7jn3r1t05als90dpf046aqqh02g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:943144077677:android:c50f757a862a5fb1aff264",
+        "android_client_info": {
+          "package_name": "com.sorasync.sorasync"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "943144077677-u1f8ivlvlhap71p9i28v01jbquecc8ba.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sorasync.sorasync",
+            "certificate_hash": "36c2b28940cf3a5c67e864401d7f841d68faa593"
+          }
+        },
+        {
+          "client_id": "943144077677-e4aei7jn3r1t05als90dpf046aqqh02g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcvRpfmsfbBXDEHsf6XYmWwKCcwDHM9DE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "943144077677-e4aei7jn3r1t05als90dpf046aqqh02g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

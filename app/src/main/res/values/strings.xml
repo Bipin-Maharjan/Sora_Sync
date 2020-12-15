@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SoraSync</string>
+    <string name="username">Username</string>
+    <string name="navigation_drawer_open">open navigation drawer</string>
+    <string name="navigation_drawer_close">close navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="drawer_greeting">Welcome to Sora Sync</string>
+</resources>
